@@ -1,0 +1,11 @@
+@extends('layouts.site')
+@section('content')
+    @include('sections.sliders')
+    @include('sections.ustunliklar')
+    @include('sections.servicesHome')
+    @include('sections.statistika')
+    @include('sections.projectsHome')
+    @include('sections.team')
+    @include('sections.testimonial')
+    @include('sections.newsHome')
+@endsection
